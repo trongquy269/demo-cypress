@@ -1,0 +1,50 @@
+{
+	"validUser": {
+		"admin": {
+			"username": "admin@example.com",
+			"password": "Password123!"
+		},
+		"cs": {
+			"username": "cs@example.com",
+			"password": "Password123!"
+		},
+		"regularUser": {
+			"username": "user@example.com",
+			"password": "Password123!"
+		}
+	},
+	"invalidUser": {
+		"usernameCorrectPasswordIncorrect": {
+			"username": "user@example.com",
+			"password": "Password123@"
+		},
+		"usernameIncorrectPasswordCorrect": {
+			"username": "test@example.com",
+			"password": "Password123!"
+		},
+		"usernameIncorrectPasswordIncorrect": {
+			"username": "test@example.com",
+			"password": "Password123@"
+		},
+		"invalidEmail": {
+			"username": "testexample.com",
+			"password": "Password123!"
+		},
+		"invalidPassword": {
+			"username": "user@example.com",
+			"password": "password12345"
+		},
+		"emptyUsername": {
+			"username": "",
+			"password": "Password123!"
+		},
+		"emptyPassword": {
+			"username": "user@example.com",
+			"password": ""
+		},
+		"emptyUsernameAndPassword": {
+			"username": "",
+			"password": ""
+		}
+	}
+}
